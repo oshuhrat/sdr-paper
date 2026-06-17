@@ -1,0 +1,45 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pth
+*.pt
+
+# non-paper directories
+config/
+engines/
+genome_core/
+memory/
+problems/
+tests/
+tools/
+sdr_agent/
+sdr_agent_v3_diagnostics/
+sdr_agent_v3_transfer_action/
+sdr_difference_retention_test/
+
+# generated run artefacts
+sdr_structural_retention_test/run_seed*.log
+sdr_structural_retention_test/plots/
+sdr_structural_retention_test/results*.csv
+sdr_structural_retention_test/stats.csv
+sdr_structural_retention_test/report.md
+sdr_agent_v2_concept_discovery/run_seed*.log
+sdr_agent_v2_concept_discovery/fast_seed*.log
+sdr_agent_v2_concept_discovery/probing_*.log
+sdr_agent_v2_concept_discovery/run_probing_train.py
+sdr_agent_v2_concept_discovery/plots/
+sdr_agent_v2_concept_discovery/training_history.csv
+sdr_agent_v2_concept_discovery/report.md
+sdr_agent_v3_reward_shaping/model_*.pt
+sdr_agent_v3_reward_shaping/history_*.csv
+sdr_agent_v3_reward_shaping/results.csv
+
+# legacy
+memory/session_log.jsonl
+memory/search_tree.json
+memory/research_cache/
+memory/lemmas_proved/
+memory/hypotheses/

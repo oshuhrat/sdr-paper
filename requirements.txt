@@ -1,0 +1,16 @@
+# SDR experiments (genome-solver)
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+sympy>=1.12
+pyyaml>=6.0
+rich>=13.0
+jsonlines>=4.0
+anthropic>=0.25.0
+
+# Опциональные бэкенды (установи нужный)
+# Groq и DeepSeek работают через urllib (встроен в Python), доп. пакеты не нужны
+# Ollama: установи с https://ollama.com, затем: ollama pull deepseek-r1:7b

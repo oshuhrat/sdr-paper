@@ -1,0 +1,4 @@
+encoder,policy,train_sr,holdout_sr,holdout_ci95,generalization_ratio,cg,config
+oracle,lstm,0.3293,0.3200,0.0747,0.972,0.0000,800_rollouts_cg_attn
+sdr,lstm_sim,0.3493,0.3200,0.0747,0.916,0.0000,800_rollouts_cg_attn
+random,lstm_sim,0.3347,0.2667,0.0708,0.797,0.0533,800_rollouts_cg_attn
